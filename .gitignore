@@ -1,0 +1,5 @@
+*.exe
+*.py
+build/
+output/
+.vscode/
