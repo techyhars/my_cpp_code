@@ -1,12 +1,12 @@
-// Print “India will win the World Cup 2023”, 20 times.
+// Print all numbers from 1 to n, which is divisible by 4. Take n as an input from the user.
 
 #include <iostream>
 using namespace std;
-int main()
-{
-
-    for (int i = 0; i <= 20; i++)
-    {
-        cout << "india will win the world cup 2023" << endl;
+int main(){
+    int n;
+    cout << "divisible by: ";
+    cin >> n;
+    for(int i = 4; i <= n; i = i + 4){
+        cout << i << ' ' << endl;
     }
 }
